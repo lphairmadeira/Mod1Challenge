@@ -37,9 +37,10 @@ public class Week2 {
         b = j % x == i;
         System.out.print(b);
 
-        //Challenge Problem 6 (Extra Credit)
+//Challenge Problem 6 (Extra Credit)
         System.out.println("\nEnter your age");
         Integer age = s.nextInt();
         System.out.println(age + 5);
         String myString8 = "15";
-        new Scanner(myString8); }}
+        new Scanner(myString8);
+    }}

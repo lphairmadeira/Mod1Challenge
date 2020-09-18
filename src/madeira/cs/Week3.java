@@ -22,8 +22,9 @@ String genre = s.nextLine();
     if (genre == "Pop")
         System.out.println("Same");
 
-    else if (genre != "Pop")
-        System.out.println("Lame");
+    else if (genre != "Pop");
+            System.out.println("Lame");
+
 
 //Challenge Problem 3
 Scanner m = new Scanner(System.in);
@@ -38,9 +39,15 @@ int guess = s.nextInt();
     System.out.println("Not my number! Try again.");}}
 
 //Challenge Problem 4
-       /* int outerCounter = 5;
+        int outerCounter = 5;
                 while (outerCounter > 0);
                 int innerCounter = 0;
-                    while ("comapare inner to outer");
-        System.out.println('*'); */
+                    while (outerCounter < innerCounter);
+        System.out.println('*');
+
+//Challenge Problem 5
+        int count = 4;
+        while (count > 0)
+        { System.out.println("****");
+          count = count / 2; }
     }}
